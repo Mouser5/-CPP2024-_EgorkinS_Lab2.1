@@ -16,7 +16,9 @@ public:
         ans = Get_ans(mark);
     }
     vector <double> Get_ans(string mark) {
+
         if (mark == "A") {
+
 
         }
     }
@@ -27,4 +29,8 @@ int main()
     string s = "example";
     Student* a = new Student(s, s);
 
+    // string s = "example";
+    // Student* a = new Student(s, s);
+    double a, b, c;
+    InputData(a, b, c);
 }
